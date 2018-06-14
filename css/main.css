@@ -15,6 +15,7 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	/*min-width: 302px;*/
 	/*overflow: hidden;*/
+	/*background: silver;*/
 }
 .container {
 	/*overflow: hidden;*/
@@ -41,6 +42,9 @@ body {
 	border-right: 2px solid white;
 	height: 1.6em;
 	margin: 0 14px;
+}
+.blackLine {
+	border-color: black;
 }
 .lline {
 	border-right: 2px solid white;
@@ -85,24 +89,32 @@ body {
 	/*height: 100px;*/
 	padding: 0 25px;
 	/*display: flex;*/
+	/*justify-content: center;*/
 }
 .rori .row {
-	flex-wrap: nowrap;
+	/*flex-wrap: nowrap;*/
+	height: 109px;
 }
 
 /********************logo*********************/
 
 .row img {
-	width: 100%;	
+	width: 250px;	
+	/*min-width: 313px;*/
 }
 .btnWrapper button {
-	width: 130px;	
+	min-width: 151px;	
+	max-width: content;
+	font-size: 13px;
+	height: 40px;
+	box-shadow: 0px 7px 13px 0px rgba(209,209,209,1);	
 }
 .btnWrapper {
 	display: flex;
 	justify-content: space-between;
-	width: 300px;
-	margin-right: 110px;
+	/*width: 300px;*/
+	/*margin-right: 110px;*/
+	flex: 1;
 }
 .btn-sell {
 	background: #ed7d19;
@@ -233,7 +245,11 @@ body {
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 20px;
 	/*flex-direction: column !important;*/
+}
+.firstBackgroundItemsRow div {
+	min-width: max-content;
 }
 .firstBackgroundItemsRow a {
 	color: black;
@@ -319,7 +335,7 @@ body {
 }
 .vertItems {
 	position: relative;
-	top: 100px;
+	top: 80px;
 }
 .wideUnderLine {
 	border-bottom: 2px solid #7a7a7a;
@@ -415,7 +431,7 @@ body {
 	margin-bottom: 80px;
 }
 .footerContainer {
-	height: 100px;
+	height: 70px;
 	background: #282828;
 	color: white;
 	display: flex;
@@ -439,8 +455,9 @@ body {
 .footerTextWrapper {
 	flex: 1;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+	margin: 0 60px;
 }
 .footerTextWrapper ul {
 	display: flex;
@@ -455,7 +472,82 @@ body {
 	color: silver;
 }
 .footerImgContainer {
-	flex: 1;
+	/*flex: 1;*/
 	display: flex;
 	justify-content: center;
+}
+.aboutUsAndCallWrapper {
+	width: 303px;
+	/*background: orange;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 15px;
+}
+.call {
+	background: silver;
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	width: 150px;
+	justify-content: center;
+	height: 25px;
+	color: black !important;
+}
+.btn-change {
+	background: #ed7d19;
+	border-color: #ed7d19;
+}
+.btn-search {
+	background: #0076a0;
+	border-color: #0076a0;	
+}
+.sliderContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.slickContainer {
+	width: 80%;
+	min-width: 650px;
+}
+.slickContainer .item {
+	display: flex !important;
+	justify-content: center;
+	height: 200px;
+}
+.slick-arrow {
+	font-size: 54px;
+}
+.slick-arrow:hover {
+	cursor: pointer;
+}
+.card {
+	border: 0;
+}
+.noShadow {
+	box-shadow: none;
+	width: 100%;
+}
+.noShadow img {
+	border-radius: 3px;
+	
+}
+.noShadowCardRow {
+	flex-direction: column;
+}
+.noShadowContainer {
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+.noShadowContainer .row {
+	width: 20%;
+}
+.vertLine {
+	border-right: 3px solid white;
+	height: 230px;
+	display: inline-block;
+	margin: 0 15px;
 }

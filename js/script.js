@@ -46,3 +46,12 @@ document.querySelector('.skipMenu').addEventListener('transitionend', () => {
 		document.querySelector('.mainSkipMenu').style.display = 'none';
 	}
 });
+
+// 
+
+$('.slickContainer').slick({
+	prevArrow: $('.prev'),
+	nextArrow: $('.next'),
+	slidesToShow: 2,
+	infinite: true,
+});
