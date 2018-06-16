@@ -55,3 +55,12 @@ $('.slickContainer').slick({
 	slidesToShow: 2,
 	infinite: true,
 });
+
+document.querySelector('.colCard a').onmouseenter = () => {
+    console.log(16);
+    document.querySelector('.opacityLayerBackground').style.opacity = 1;
+};
+document.querySelector('.colCard a').onmouseleave = () => {
+    console.log(17);
+    document.querySelector('.opacityLayerBackground').style.opacity = 0;
+};

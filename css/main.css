@@ -93,7 +93,7 @@ body {
 }
 .rori .row {
 	/*flex-wrap: nowrap;*/
-	height: 109px;
+	/*height: 109px;*/
 }
 
 /********************logo*********************/
@@ -104,7 +104,6 @@ body {
 }
 .btnWrapper button {
 	min-width: 151px;	
-	max-width: content;
 	font-size: 13px;
 	height: 40px;
 	box-shadow: 0px 7px 13px 0px rgba(209,209,209,1);	
@@ -112,9 +111,8 @@ body {
 .btnWrapper {
 	display: flex;
 	justify-content: space-between;
-	/*width: 300px;*/
-	/*margin-right: 110px;*/
 	flex: 1;
+	/*margin-right: 110px;*/
 }
 .btn-sell {
 	background: #ed7d19;
@@ -234,7 +232,7 @@ body {
 
 .firstBackgroundSection {
 	background: url(../img/background_coffee_main.jpg) no-repeat center / cover;
-	height: 500px;
+	/*height: 500px;*/
 	padding: 50px 20px;
 }
 .firstBackgroundItemsRow {
@@ -306,8 +304,8 @@ body {
 	border-radius: 5px;
 }
 .inputRow {
-	position: relative;
-	top: 300px;
+	/*position: relative;
+	top: 300px;*/
 }
 .backgroundDivs div {
 	display: flex;
@@ -523,31 +521,135 @@ body {
 .slick-arrow:hover {
 	cursor: pointer;
 }
-.card {
-	border: 0;
+.cardsContainer {
+	display: flex;
+	/*background: #ffa50063;*/
+	/*height: 200px;*/
+	padding: 0;
+	flex-wrap: wrap;
 }
-.noShadow {
-	box-shadow: none;
+.bigCol {
+	/*background: blue;*/
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bigColNav {
+	height: 40px;
+	background: #ffffffc7;
+	/*border-radius: 5px;*/
+	margin-bottom: 20px;
 	width: 100%;
+	font-size: 2em;
+	color: white;
+	text-align: center;
 }
-.noShadow img {
-	border-radius: 3px;
-	
+.colNav {
+	height: 40px;
+	background: #ffffffc7;
+	/*border-radius: 5px;*/
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 370px;
+	/*font-size: 2em;*/
+	/*color: white;*/
+	position: relative;
+	display: flex; 
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	font-size: 15px;
+	transition: .3s;
 }
-.noShadowCardRow {
+.colNav:hover {
+	background: #c1c1c1eb;
+	cursor: pointer;
+}
+.firstColNav {
+	border-radius: 5px 0 0 5px;
+}
+.forthColNav {
+	border-radius: 0 5px 5px 0;
+}
+.smCol {
+	width: 50%;
+	display: flex;
 	flex-direction: column;
 }
-.noShadowContainer {
-	padding: 0;
-	display: flex;
+.smCol button {
+	align-self: center;
+	margin: 10px auto 0;
+	width: 120px !important;
+}
+.colCard {
+	color: white;
+	position: relative;
+	display: flex; 
 	align-items: center;
+	justify-content: center;
+	/*background: #00ff0052;*/
+	display: flex;
+	flex-direction: column;
+	padding: 0 9px;
 }
-.noShadowContainer .row {
-	width: 20%;
+.colCard a {
+	width: 100%;
+	max-width: 340px;
+	margin-bottom: 11px;	
 }
-.vertLine {
-	border-right: 3px solid white;
-	height: 230px;
-	display: inline-block;
-	margin: 0 15px;
+.colNavVertLine {
+	border: 2px solid black;
+	position: absolute;
+	height: 58%;
+	right: -2px;
+	z-index: 1;
 }
+.colCardVertLine {
+	border: 1px solid #c5c5c5e6;
+	position: absolute;
+	height: 100%;
+	top: -6px;
+	right: -1px;
+	z-index: 1;	
+}
+.colCardItem {
+	background: url(../img/1.jpg) center / cover;
+	/*width: 100%;*/
+	height: 100%;
+	position: relative;
+}
+.colCardItemWrapper {
+	background: silver;
+	padding: 3px;
+	width: 100%;
+	max-width: 340px;
+	height: 180px;
+	border-radius: 3px;
+}
+.opacityLayerBackground {
+	position: absolute;
+	/*top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;*/
+	height: 100%;
+	width: 100%;
+	background: #00000087;
+	transition: .2s;
+	opacity: 0;
+	color: white;
+	text-decoration: underline;
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	overflow: hidden;
+}
+.opacityLayerBackgroundText {
+	margin-bottom: 7px;
+	width: 90%;
+	text-align: center;
+}
+/*.opacityLayerBackground:hover {
+	opacity: 1;	
+}*/

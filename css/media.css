@@ -3,8 +3,7 @@
 		margin: 0 0;
 	}
 	.btnWrapper {
-		margin-left: 0;
-		margin: 25px 0 !important;
+		margin: 5px  0 24px 0 !important;
 		padding: 0 3rem !important;
 	}
 	.container.rori {
@@ -18,6 +17,9 @@
 	.row .card {
 		margin-top: 20px;
 	}
+	.row img {
+		margin: 10px 0;
+	}
 }
 @media (min-width: 1201px) {
 	.btnWrapper {
@@ -25,6 +27,22 @@
 	}	
 }
 @media (max-width: 992px) {
+	.secondColNav {
+		border-radius: 0 5px 5px 0;
+	}
+	.thirdColNav {
+		border-radius: 5px 0 0 5px;
+	}
+	.hiddenColNavNCardVertLine992 {
+		display: none;
+	}
+	.bigCol {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.noMarginBottom {
+		margin-bottom: 0;
+	}
 	.footerInnerContainer img {
 		width: 230px;
 	}
@@ -45,7 +63,9 @@
 	}
 	.btnWrapper {
 		margin-right: 0;
-		width: 732px;
+		/*width: 732px;*/
+		padding: 0 0 !important;
+		/*padding-right: 0 !important;*/
 	}
 	.firstCol {
 		height: 300px;
@@ -69,9 +89,6 @@
 	}
 }
 @media (max-width: 767px) {
-	.btnWrapper {
-		width: 330px;
-	}
 	.blogPhoto {
 		/*width: 100%;*/
 		width: 300px;
@@ -81,10 +98,10 @@
 	.aboveBlog {
 		margin-bottom: 50px;
 	}
-	.blogPhotosWrapper {
+	/*.blogPhotosWrapper {
 		flex-direction: column;
 		align-items: center;
-	}
+	}*/
 	.blogPhotoCenter {
 		top: 0px;
 		height: 200px;
@@ -98,46 +115,28 @@
 		overflow-x: hidden;
 	}
 }
-@media (max-width: 512px) {
-	.btnWrapper {
-		width: 300px;
-	}
-}
 @media (max-width: 404px) {
 	.btnWrapper {
-		max-width: 290px;
-	}
-}
-@media (max-width: 364px) {
-	.btnWrapper {
-		max-width: 270px;
+		max-width: 280px;
 	}
 	.btnWrapper button {
-		max-width: 120px;
+		max-width: 50px;
+		min-width: 130px;
+		font-size: 11px;
 	}
 }
-@media (max-width: 342px) {
+@media (max-width: 325px) {
 	.btnWrapper {
-		max-width: 255px;
+		max-width: 225px;
 	}
 	.btnWrapper button {
-		max-width: 115px;
+		min-width: 100px;
+	}	
+	.investitionButton {
+		padding: 0;
 	}
-}
-@media (max-width: 321px) {
-	.btnWrapper {
-		max-width: 247px;
-	}
-	.btnWrapper button {
-		max-width: 110px;
-	}
-}
-@media (max-width: 308px) {
-	.btnWrapper {
-		max-width: 231px;
-	}
-	.btnWrapper button {
-		max-width: 105px;
+	.investitionButtonTextWrapper {
+		white-space: initial;
 	}
 }
 @media (max-width: 768px) {
@@ -149,7 +148,10 @@
 	}
 	.btnWrapper {
 		flex-wrap: wrap;
-		padding: 0 84px !important;
+		padding: 0px !important;
+		/*max-width: 490px;*/
+		width: 322px;
+		flex: none;
 	}
 	.marginBtn {
 		margin-bottom: 22px;
@@ -186,6 +188,19 @@
 @media (max-width: 301px) {
 	.skipMenu {
 		width: 270px !important;
+	}
+}
+@media (max-width: 596px) {
+	.firstColNav, .secondColNav,
+	.thirdColNav, .forthColNav {
+		border-radius: 5px;
+	}
+	.smCol {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.hiddenColNavNCardVertLine596 {
+		display: none;
 	}
 }
 /*@media (max-width: 800px) {
