@@ -56,11 +56,53 @@ $('.slickContainer').slick({
 	infinite: true,
 });
 
-document.querySelector('.colCard a').onmouseenter = () => {
-    console.log(16);
-    document.querySelector('.opacityLayerBackground').style.opacity = 1;
+// document.querySelector('.colCard a').onmouseenter = () => {
+//     // console.log(16);
+//     document.querySelector('.opacityLayerBackground').style.opacity = 1;
+// };
+// document.querySelector('.colCard a').onmouseleave = () => {
+//     // console.log(17);
+//     document.querySelector('.opacityLayerBackground').style.opacity = 0;
+// };
+
+
+
+document.querySelector('.cardsContainer').onmouseover = (e) => {
+    // console.log(16);
+    // if (e.target.className == 'colCardItem') {
+    //     console.log(e.target.querySelector('.opacityLayerBackground'));
+    // }
+    // console.log(e.target.tagName);
 };
-document.querySelector('.colCard a').onmouseleave = () => {
-    console.log(17);
-    document.querySelector('.opacityLayerBackground').style.opacity = 0;
+// document.querySelector('.cardsContainer').onmouseleave = () => {
+//     console.log(17);
+//     // document.querySelector('.opacityLayerBackground').style.opacity = 0;
+// };
+
+
+
+
+document.querySelector('.cardsContainer').onmouseover = (e) => {
+
+
+    // console.log(e.target.className);
+
+    if (e.target.className == 'borderCard') {
+    // console.log('cardsWrapper IN');
+        e.target.parentNode.querySelector('.opacityLayerBackground').style.opacity = 1;
+        // console.log("e.target.querySelector('.opacityLayerBackground').style.opacity = 1;");
+    };
+    // document.querySelector('.cardsWrapper').onmouseout = (e) => {
+    //     // console.log('cardsWrapper OUT');
+    //     e.target.querySelector('.opacityLayerBackground').style.opacity = 0;
+    // };
+
+};
+
+document.querySelector('.cardsContainer').onmouseout = (e) => {
+    if (e.target.className == 'borderCard') {
+    // console.log('cardsWrapper IN');
+        e.target.parentNode.querySelector('.opacityLayerBackground').style.opacity = 0;
+        // console.log("e.target.querySelector('.opacityLayerBackground').style.opacity = 1;");
+    };
 };
