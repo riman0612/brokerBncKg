@@ -194,9 +194,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	/*align-items: center;*/
-	position: relative;
+	position: fixed;
 	transition: .2s;
-	left: 18px;
+	/*left: 18px;*/
+	right: -300px;
 	opacity: 0;
 }
 .skipMenu a li {
@@ -219,7 +220,8 @@ body {
 	z-index: 18;
 }
 .showMainSkipMenu {
-	left: -1px;	
+	/*left: -1px;	*/
+	right: 0;
 	opacity: 1;
 }
 .underline {
@@ -278,7 +280,12 @@ body {
 	background: linear-gradient(#383838, #232323, #383838);
 	/*background: #5e5e5e;*/
 	/*padding: 8px;*/
-	/*position: fixed;*/
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+}
+.skipNavigationSpace {
+	height: 54px;
 }
 .col input {
 	width: 100%;

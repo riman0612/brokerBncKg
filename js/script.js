@@ -28,7 +28,6 @@ $hamburger.onclick = function(e) {
 	$hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
     if (this.classList.contains('is-active')) {
-    	console.log(121);
     	(function(){
     	document.querySelector('.mainSkipMenu').style.display = 'block';
     	})()
@@ -42,7 +41,6 @@ $hamburger.onclick = function(e) {
 
 document.querySelector('.skipMenu').addEventListener('transitionend', () => {
 	if (!($hamburger.classList.contains("is-active"))) {
-		console.log('riri');
 		document.querySelector('.mainSkipMenu').style.display = 'none';
 	}
 });
