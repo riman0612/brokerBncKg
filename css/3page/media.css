@@ -1,0 +1,660 @@
+@media (max-width: 1200px) {
+	.clock {
+		margin: 0 0;
+	}
+}
+@media (max-width: 992px) {
+	.footerInnerContainer img {
+		width: 230px;
+	}
+	.footerInnerContainer {
+		/*width: 100%;*/
+	}
+	.footerContainer {
+		height: 100px;
+	}
+	.footerTextWrapper {
+		flex: 1;
+		justify-content: center;
+		display: flex;
+		margin-left: 20px;
+	}
+	.rori {
+		padding-right: auto;
+	}
+	.btnWrapper {
+		margin-right: 0;
+	}
+	.firstCol {
+		height: 300px;
+	}
+	.bizActivesCardsContainerLilCards {
+		height: 150px;
+	}
+	.blogPhoto {
+		height: 140px;
+	}
+	.blogPhotoCenter {
+		height: 160px;
+		top: -15px;
+	}
+
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+		.navigation ul li a {
+	    margin-right: 5px;
+	    font-size: 14px;
+	}
+	.buttons {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.listingWord {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.buttons3page button {
+	    height: 40px;
+	    margin-left: 14px;
+	}
+	.buttons3page{
+		margin-left: 24px;
+	}
+	.contentMenu {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.blockcontentmenu h5 {
+	    width: 100%;
+	    font-size: 20px;
+	}
+	.pricebutton {
+	    width: 100%;
+	    text-align: center;
+	}
+	.contentimage img {
+	     height: auto; 
+	}
+	.titlebroker{
+		text-align: center;
+	}
+	.titlebroker h1{
+		font-size: 27px;
+	}
+	.contentbroker{
+		width: 100%;
+		padding: 30px 10px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.contentbroker input{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contentbroker p{
+		width: 100%;
+		float: none;
+		font-size: 17px;
+		margin-bottom: -4px;
+	}
+	.logotreepage{
+		padding-top: 32px;
+	}
+	.navigation {
+	    margin-top: -89px;
+	}
+}
+@media (max-width: 330px) {
+	.blogPhoto {
+		width: 100% !important;
+		margin-bottom: 25px;
+		height: 160px !important;
+	}
+
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+}
+@media (max-width: 767px) {
+	.btnWrapper {
+		width: 330px;
+	}
+	.blogPhoto {
+		/*width: 100%;*/
+		width: 300px;
+		margin-bottom: 25px;
+		height: 200px;
+	}
+	.aboveBlog {
+		margin-bottom: 50px;
+	}
+	.blogPhotosWrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.blogPhotoCenter {
+		top: 0px;
+		height: 200px;
+	}	
+
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+		.navigation ul li a {
+	    margin-right: 5px;
+	    font-size: 14px;
+	}
+	.buttons {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.listingWord {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.buttons3page button {
+	    height: 40px;
+	    margin-left: 14px;
+	}
+	.buttons3page{
+		margin-left: 24px;
+	}
+	.contentMenu {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.blockcontentmenu h5 {
+	    width: 100%;
+	    font-size: 20px;
+	}
+	.pricebutton {
+	    width: 100%;
+	    text-align: center;
+	}
+	.contentimage img {
+	     height: auto; 
+	}
+	.titlebroker{
+		text-align: center;
+	}
+	.titlebroker h1{
+		font-size: 27px;
+	}
+	.contentbroker{
+		width: 100%;
+		padding: 30px 10px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.contentbroker input{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contentbroker p{
+		width: 100%;
+		float: none;
+		font-size: 17px;
+		margin-bottom: -4px;
+	}
+	.logotreepage{
+		padding-top: 32px;
+	}
+	.navigation {
+	    margin-top: -89px;
+	}
+}
+@media (max-width: 575px) {
+	.cont {
+		margin: 0;
+	}
+	.skipMenuContainer {
+		overflow-x: hidden;
+	}
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+		.navigation ul li a {
+	    margin-right: 5px;
+	    font-size: 14px;
+	}
+	.buttons {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.listingWord {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.buttons3page button {
+	    height: 40px;
+	    margin-left: 14px;
+	}
+	.buttons3page{
+		margin-left: 24px;
+	}
+	.contentMenu {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.blockcontentmenu h5 {
+	    width: 100%;
+	    font-size: 20px;
+	}
+	.pricebutton {
+	    width: 100%;
+	    text-align: center;
+	}
+	.contentimage img {
+	     height: auto; 
+	}
+	.titlebroker{
+		text-align: center;
+	}
+	.titlebroker h1{
+		font-size: 27px;
+	}
+	.contentbroker{
+		width: 100%;
+		padding: 30px 10px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.contentbroker input{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contentbroker p{
+		width: 100%;
+		float: none;
+		font-size: 17px;
+		margin-bottom: -4px;
+	}
+	.logotreepage{
+		padding-top: 32px;
+	}
+	.navigation {
+	    margin-top: -89px;
+	}
+}
+@media (max-width: 512px) {
+	.btnWrapper {
+		width: 300px;
+	}
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+
+}
+@media (max-width: 404px) {
+	.btnWrapper {
+		max-width: 290px;
+	}
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+		.navigation ul li a {
+	    margin-right: 5px;
+	    font-size: 14px;
+	}
+	.buttons {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.listingWord {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.buttons3page button {
+	    height: 40px;
+	    margin-left: 14px;
+	}
+	.buttons3page{
+		margin-left: 24px;
+	}
+	.contentMenu {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.blockcontentmenu h5 {
+	    width: 100%;
+	    font-size: 20px;
+	}
+	.pricebutton {
+	    width: 100%;
+	    text-align: center;
+	}
+	.contentimage img {
+	     height: auto; 
+	}
+	.titlebroker{
+		text-align: center;
+	}
+	.titlebroker h1{
+		font-size: 27px;
+	}
+	.contentbroker{
+		width: 100%;
+		padding: 30px 10px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.contentbroker input{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contentbroker p{
+		width: 100%;
+		float: none;
+		font-size: 17px;
+		margin-bottom: -4px;
+	}
+	.logotreepage{
+		padding-top: 32px;
+	}
+	.navigation {
+	    margin-top: -89px;
+	}
+
+}
+@media (max-width: 364px) {
+	.btnWrapper {
+		max-width: 270px;
+	}
+	.btnWrapper button {
+		max-width: 120px;
+	}
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	.navigation ul li a {
+	    margin-right: 5px;
+	    font-size: 14px;
+	}
+	.buttons {
+		width: 100%;
+	    display: flex;
+	    justify-content: center;
+	}
+	
+	/*.buttons3page{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.listingWord {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.buttons3page button {
+	    height: 100%;;
+	    margin-left: 14px;
+	}
+	.buttons3page{
+		margin-left: 24px;
+	}*/
+	.contentMenu {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.blockcontentmenu h5 {
+	    width: 100%;
+	    font-size: 20px;
+	}
+	.pricebutton {
+	    width: 100%;
+	    text-align: center;
+	}
+	.contentimage img {
+	     height: auto; 
+	}
+	.titlebroker{
+		text-align: center;
+	}
+	.titlebroker h1{
+		font-size: 27px;
+	}
+	.contentbroker{
+		width: 100%;
+		padding: 30px 10px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.contentbroker input{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contentbroker p{
+		width: 100%;
+		float: none;
+		font-size: 17px;
+		margin-bottom: -4px;
+	}
+	.logotreepage{
+		padding-top: 32px;
+	}
+	.navigation {
+	    margin-top: -89px;
+	}
+}
+@media (max-width: 342px) {
+	.btnWrapper {
+		max-width: 255px;
+	}
+	.btnWrapper button {
+		max-width: 115px;
+	}
+}
+@media (max-width: 321px) {
+	.btnWrapper {
+		max-width: 247px;
+	}
+	.btnWrapper button {
+		max-width: 110px;
+	}
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+	
+}
+@media (max-width: 308px) {
+	.btnWrapper {
+		max-width: 231px;
+	}
+	.btnWrapper button {
+		max-width: 105px;
+	}
+}
+@media (max-width: 768px) {
+	.inputMainWrapper {
+		width: 80%;
+	}
+	.footerTextWrapper {
+		height: 68px;
+	}
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+}
+@media (max-width: 519px) {
+	.footerInnerContainer {
+		flex-direction: column;
+	}
+	.footerContainer {
+		height: 220px;
+	}
+	.footerTextWrapper {
+		margin-left: 0;
+	}
+	.footerTextWrapper ul {
+		margin-left: 0;
+		height: 72%;
+	}
+	.footerInnerContainer img {
+		width: 200px;
+		position: relative;
+		top: -9px;
+	}
+	.footerTextWrapper {
+		height: auto;
+		position: relative;
+		top: 2px;
+	}
+	.skipMenuContainer {
+		max-width: 100%;
+	}
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+		.navigation ul li a {
+	    margin-right: 5px;
+	    font-size: 14px;
+	}
+	.buttons {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.listingWord {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.buttons3page button {
+	    height: 40px;
+	    margin-left: 14px;
+	}
+	.buttons3page{
+		margin-left: 24px;
+	}
+	.contentMenu {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.blockcontentmenu h5 {
+	    width: 100%;
+	    font-size: 20px;
+	}
+	.pricebutton {
+	    width: 100%;
+	    text-align: center;
+	}
+	.contentimage img {
+	     height: auto; 
+	}
+	.titlebroker{
+		text-align: center;
+	}
+	.titlebroker h1{
+		font-size: 27px;
+	}
+	.contentbroker{
+		width: 100%;
+		padding: 30px 10px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.contentbroker input{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contentbroker p{
+		width: 100%;
+		float: none;
+		font-size: 17px;
+		margin-bottom: -4px;
+	}
+	.logotreepage{
+		padding-top: 32px;
+	}
+	.navigation {
+	    margin-top: -89px;
+	}
+}
+@media (max-width: 301px) {
+	.skipMenu {
+		width: 270px !important;
+	}
+	.contentmain {
+	    display: flex;
+	    flex-direction: column;
+	}
+		.navigation ul li a {
+	    margin-right: 5px;
+	    font-size: 14px;
+	}
+	.buttons {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.listingWord {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.buttons3page button {
+	    height: 40px;
+	    margin-left: 14px;
+	}
+	.buttons3page{
+		margin-left: 24px;
+	}
+	.contentMenu {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.blockcontentmenu h5 {
+	    width: 100%;
+	    font-size: 20px;
+	}
+	.pricebutton {
+	    width: 100%;
+	    text-align: center;
+	}
+	.contentimage img {
+	     height: auto; 
+	}
+	.titlebroker{
+		text-align: center;
+	}
+	.titlebroker h1{
+		font-size: 27px;
+	}
+	.contentbroker{
+		width: 100%;
+		padding: 30px 10px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.contentbroker input{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contentbroker p{
+		width: 100%;
+		float: none;
+		font-size: 17px;
+		margin-bottom: -4px;
+	}
+	.logotreepage{
+		padding-top: 32px;
+	}
+	.navigation {
+	    margin-top: -89px;
+	}
+}
