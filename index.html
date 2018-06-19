@@ -38,6 +38,92 @@
 		</div>
 	</div> -->
 
+
+	<!-- Вход -->
+	<div class="modal fade" id="entrance" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Вход</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row justify-content-center mb-3">
+						<input type="text" class="form-control col-8" id="recipient-name" placeholder="Email">
+					</div>
+					<div class="row justify-content-center">
+						<input type="text" class="form-control col-8" id="recipient-name" placeholder="Пароль">
+					</div>
+				</div>
+				<div class="modal-footer justify-content-center">
+					<button type="button" class="btn btn-success">Вход</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Регистрация -->
+	<div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Регистрация</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="form-group col-6">
+							<label for="recipient-name" class="col-form-label">Имя:</label>
+							<input type="text" class="form-control" id="recipient-name">
+						</div>
+						<div class="form-group col-6">
+							<label for="recipient-name" class="col-form-label">Фамилия:</label>
+							<input type="text" class="form-control" id="recipient-name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="recipient-name" class="col-form-label">Email адресс:</label>
+						<input type="text" class="form-control" id="recipient-name">
+					</div>
+					<div class="form-group">
+						<label for="recipient-name" class="col-form-label">Пароль:</label>
+						<input type="text" class="form-control" id="recipient-name">
+					</div>
+				</div>
+				<div class="modal-footer justify-content-center">
+					<button type="button" class="btn btn-success">Регистрация</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Заказ звонка -->
+	<div class="modal fade" id="callOrder" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Заказ звонка</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row justify-content-center">
+						<input type="text" class="form-control col-8" id="recipient-name" placeholder="Ваш номер телефона">
+					</div>
+				</div>
+				<div class="modal-footer justify-content-center">
+					<button type="button" class="btn btn-success">Заказать</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- oneMoreSkipNav -->
 	<div class="skipNavigation d-block d-lg-none">
 		<div class="container">
@@ -97,12 +183,12 @@
 				</li>
 			</a>
 			<div class="wideUnderLine"></div> -->
-			<a href="#"><li>
+			<a data-toggle="modal" data-target="#entrance" href="#"><li>
 					<i class="fas fa-sign-in-alt mr-2"></i></i>
 					вход
 				</li>
 			</a><div class="underline"></div>
-			<a href="#"><li>
+			<a data-toggle="modal" data-target="#registration" href="#"><li>
 					<i class="far fa-registered mr-2"></i>
 					регистрация
 				</li>
@@ -136,12 +222,12 @@
 						<a href="#"><li class="nav-item">
 							О нас
 						</li></a><div class="line"></div>
-						<a href="#" class="call">Заказ звонка</a>
+						<a data-toggle="modal" data-target="#callOrder" href="#" class="call">Заказ звонка</a>
 					</div>
 					<!-- d-none d-xl-flex -->
 					<li class="entrance nav-item ">
-						<a style="font-family: 'Open Sans', sans-serif;" href="#">вход</a><div class="line linePadding"></div>
-						<a style="font-family: 'Open Sans', sans-serif;" href="#">регистрация</a>
+						<a data-toggle="modal" data-target="#entrance" style="font-family: 'Open Sans', sans-serif;" href="#">вход</a><div class="line linePadding"></div>
+						<a data-toggle="modal" data-target="#registration" style="font-family: 'Open Sans', sans-serif;" href="#">регистрация</a>
 					</li>
 					<!-- <div class="dropdown d-xl-none">
 						<button class="btn btn-secondary loginIcon dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
