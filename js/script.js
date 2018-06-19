@@ -28,7 +28,6 @@ $hamburger.onclick = function(e) {
 	$hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
     if (this.classList.contains('is-active')) {
-    	console.log(121);
     	(function(){
     	document.querySelector('.mainSkipMenu').style.display = 'block';
     	})()
@@ -42,7 +41,6 @@ $hamburger.onclick = function(e) {
 
 document.querySelector('.skipMenu').addEventListener('transitionend', () => {
 	if (!($hamburger.classList.contains("is-active"))) {
-		console.log('riri');
 		document.querySelector('.mainSkipMenu').style.display = 'none';
 	}
 });
@@ -55,3 +53,54 @@ $('.slickContainer').slick({
 	slidesToShow: 2,
 	infinite: true,
 });
+
+// document.querySelector('.colCard a').onmouseenter = () => {
+//     // console.log(16);
+//     document.querySelector('.opacityLayerBackground').style.opacity = 1;
+// };
+// document.querySelector('.colCard a').onmouseleave = () => {
+//     // console.log(17);
+//     document.querySelector('.opacityLayerBackground').style.opacity = 0;
+// };
+
+
+
+document.querySelector('.cardsContainer').onmouseover = (e) => {
+    // console.log(16);
+    // if (e.target.className == 'colCardItem') {
+    //     console.log(e.target.querySelector('.opacityLayerBackground'));
+    // }
+    // console.log(e.target.tagName);
+};
+// document.querySelector('.cardsContainer').onmouseleave = () => {
+//     console.log(17);
+//     // document.querySelector('.opacityLayerBackground').style.opacity = 0;
+// };
+
+
+
+
+document.querySelector('.cardsContainer').onmouseover = (e) => {
+
+
+    // console.log(e.target.className);
+
+    if (e.target.className == 'borderCard') {
+    // console.log('cardsWrapper IN');
+        e.target.parentNode.querySelector('.opacityLayerBackground').style.opacity = 1;
+        // console.log("e.target.querySelector('.opacityLayerBackground').style.opacity = 1;");
+    };
+    // document.querySelector('.cardsWrapper').onmouseout = (e) => {
+    //     // console.log('cardsWrapper OUT');
+    //     e.target.querySelector('.opacityLayerBackground').style.opacity = 0;
+    // };
+
+};
+
+document.querySelector('.cardsContainer').onmouseout = (e) => {
+    if (e.target.className == 'borderCard') {
+    // console.log('cardsWrapper IN');
+        e.target.parentNode.querySelector('.opacityLayerBackground').style.opacity = 0;
+        // console.log("e.target.querySelector('.opacityLayerBackground').style.opacity = 1;");
+    };
+};
