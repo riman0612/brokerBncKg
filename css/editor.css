@@ -492,12 +492,26 @@ body {
 .contentmain{
 	display: flex;
 	justify-content: space-between;
+	flex-direction: column;
+	width: 30%;
 }
 
-.contentMenu{
+.contentMenu2{
 	display: flex;
 	flex-wrap: wrap;
 	margin:0 20px;
+	flex-direction: column;
+}
+.crudButton {
+	background: #cc2526;
+	color: white;
+	display: flex;
+	justify-content: center;
+	height: 45px;
+	align-items: center;
+	border-radius: 5px;
+	width: 200px;
+	margin-bottom: 20px;
 }
 
 .blockcontentmenu{
@@ -633,4 +647,43 @@ body {
 .navigation ul li a{
 	margin-right: 10px;
 	color: #2A2C2B;
+}
+.editorContainer {
+	/*background: orange;*/
+}
+.editorWrapper {
+	background: blue;
+	height: 300px;
+	display: flex;
+}
+.editorSidebar {
+	width: 250px;
+	height: 100%;
+	background: #24272c;
+	border: 1px solid silver;
+}
+.editorSidebar a {
+	color: white;
+	display: flex;
+	align-items: center;
+	height: 45px;
+	border-bottom: 1px solid silver;
+	padding: 0 25px;
+	height: 50px;
+	position: relative;
+}
+.editorSidebar i {
+	margin-right: 15px;
+}
+.editorMainWindow {
+	background: #bfbfbf;
+	flex: 1;
+}
+.angle {
+	width: 20px;
+	height: 20px;
+	background: #bfbfbf;
+	position: absolute;
+	right: -10px;
+	transform: rotate(45deg);
 }
