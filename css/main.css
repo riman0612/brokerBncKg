@@ -117,6 +117,9 @@ body {
 	justify-content: space-between;
 	flex: 1;
 }
+.btnWrapperTwoButtons {
+	justify-content: space-around;
+}
 .btn-sell {
 	background: #ed7d19;
 	border-color: #ed7d19;
@@ -268,8 +271,8 @@ body {
 .firstBackgroundItemsRow a {
 	color: black;
 }
-.firstBackgroundSection input {
-	background: #ffffff00;
+.inputRow input {
+	background: silver;
 	width: 340px;
 	border: none;
 	height: 100%;
@@ -320,7 +323,7 @@ body {
 }
 .inputPadding {
 	padding: 0 9px;
-	background: #ffffffc7;
+	background: silver;
 	height: 100%;
 	border-radius: 5px;
 }
@@ -845,7 +848,7 @@ body {
 	display: inline-block;
 	font-size: 18px;
 	margin-bottom: 15px;
-	/*color: white;*/
+	color: #4d9ed2;
 }
 .aboutBrokerText a {
 	color: black;
@@ -854,13 +857,13 @@ body {
 	margin: 6px 68px 0 10px;
 } 
 .sendToBrokerButton {
-	border: 2px solid blue;
+	border: 2px solid #4d9ed2;
 	padding: 5px 20px;
 	border-radius: 5px;
 	margin-top: 30px;
 }
 .sendToBrokerButton i {
-	color: blue;
+	color: #4d9ed2;
 	margin-right: 8px;
 }
 .textWord {

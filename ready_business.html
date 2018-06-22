@@ -19,25 +19,41 @@
 <body>
 
 
-	<!-- skipNav -->
-	<!-- <div class="cont d-block d-lg-none">
-		<div class="container">
-			<div class="skipRow justify-content-end">
-				<div class="inputMainWrapper">
-					<div class="inputWrapper">
-						<input type="text">
-					</div>
-					<button class="btn btn-primary">btn</button>
+	<div class="modal fade" id="buyBusinessForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Купить бизнес</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
 				</div>
-				<button aria-pressed="true" class="hamburger active hamburger--collapse"   aria-haspopup="true" aria-expanded="false"" type="button">
-					<span class="hamburger-box">
-						<span class="hamburger-inner"></span>
-					</span>
-				</button>
+				<form>
+					<div class="modal-body">
+						<div class="row justify-content-center mb-3">
+							<input required type="text" class="form-control col-8" id="recipient-name" placeholder="Имя">
+						</div>
+						<div class="row justify-content-center mb-3">
+							<input required type="text" class="form-control col-8" id="recipient-name" placeholder="Ваш номер телефона">
+						</div>
+						<div class="row justify-content-center mb-4">
+							<input required type="text" class="form-control col-8" id="recipient-name" placeholder="E-mail">
+						</div>
+						<div class="row justify-content-center">
+							<label for="">
+								<input type="checkbox">
+								Согласен на обработку <a href="#">персональных данных</a>
+							</label>
+						</div>
+					</div>
+					<div class="modal-footer justify-content-center border-0 pt-0">
+						<a href="#"><button type="submit" class="btn btn-success">Купить</button></a>
+					</div>
+				</form>
 			</div>
-			
 		</div>
-	</div> -->
+	</div>
+
 
 	<!-- oneMoreSkipNav -->
 	<div class="skipNavigation d-block d-lg-none">
@@ -139,11 +155,19 @@
 			<div class="logobarter">
 				<a href="index.html" class=""><img src="img/logo.jpg"></a>
 			</div>
-			<div class="btnWrapper">
-				<a href="#"><button class="btn marginBtn btn-sell btn-danger">Заявка на покупку</button></a>
+			<div class="btnWrapper btnWrapperTwoButtons">
+				<a data-toggle="modal" data-target="#buyBusinessForm"><button class="btn marginBtn btn-sell btn-danger">Заявка на покупку</button></a>
 				<a href="#"><button class="btn marginBtn btn-success">Заявка на продажу</button></a>
 			</div>
 		</div>
+		<div class="row inputRow justify-content-center d-none d-lg-flex">
+				<div class="inputWrapperSecond mr-2">
+					<div class="inputPadding">
+						<input type="text">
+					</div>
+				</div>
+					<button class="btn btn-warning">Поиск</button>
+			</div>
 	</div>
 
 	<div class="firstBackgroundSection">
@@ -180,14 +204,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="row inputRow justify-content-center d-none d-lg-flex">
-				<div class="inputWrapperSecond mr-2">
-					<div class="inputPadding">
-						<input type="text">
-					</div>
-				</div>
-					<button class="btn btn-warning">Поиск</button>
-			</div>
+			
 			
 		</div>
 	</div>
