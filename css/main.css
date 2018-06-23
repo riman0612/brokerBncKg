@@ -22,8 +22,8 @@ body {
 }
 .firstNav {
 	display: flex;
-	/*background: #5e5e5e;*/
-	background: linear-gradient(#383838, #232323, #383838);
+	background: #6e6e6e;
+	/*background: linear-gradient(#383838, #232323, #383838);*/
 	height: 40px;
 	color: white;
 	font-size: .9em;
@@ -250,7 +250,7 @@ body {
 
 .firstBackgroundSection {
 	/*background: url(../img/background_coffee_main.jpg) no-repeat center / cover;*/
-	background: #232323;
+	background: #6e6e6e;
 	/*height: 500px;*/
 	padding: 50px 20px;
 }
@@ -262,8 +262,31 @@ body {
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	/*flex-direction: column !important;*/
+	padding: 0 !important;
+	overflow: hidden;
+	max-width: 889px;
+	margin: 0 auto 20px;
+}
+.firstBackgroundItemsRow a {
+	flex: 1;
+	display: flex; 
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transition: .3s;
+}
+.firstBackgroundItemsRow a:hover {
+	background: #fffffff2;
+}
+.firstBackgroundItemsRowItemMiddle {
+	background: silver !important;
+}
+.firstBackgroundItemsRowItem {
+	display: flex;
+	align-items: center;
 }
 .firstBackgroundItemsRow div {
 	min-width: max-content;
