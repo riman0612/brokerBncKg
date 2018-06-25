@@ -3,13 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Инвестиционные проекты</title>
+	<title>Бизнес - Актив</title>
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/hamburgers.css">
-	<link rel="stylesheet" href="css/hamburgers.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/2page/main.css">
 	<link rel="stylesheet" href="css/2page/media.css">
@@ -54,6 +53,90 @@
 		</div>
 	</div>
 
+	<div class="modal fade" id="entrance" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<h5 class="modal-title" id="exampleModalLongTitle">Вход</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row justify-content-center mb-3">
+						<input type="text" class="form-control col-8" id="recipient-name" placeholder="Email">
+					</div>
+					<div class="row justify-content-center">
+						<input type="text" class="form-control col-8" id="recipient-name" placeholder="Пароль">
+					</div>
+				</div>
+				<div class="modal-footer justify-content-center border-0">
+					<button type="button" class="btn btn-success">Вход</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Регистрация -->
+	<div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<h5 class="modal-title"  id="exampleModalLongTitle">Регистрация</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="form-group col-6">
+							<label for="recipient-name" class="col-form-label">Имя:</label>
+							<input type="text" class="form-control" id="recipient-name">
+						</div>
+						<div class="form-group col-6">
+							<label for="recipient-name" class="col-form-label">Фамилия:</label>
+							<input type="text" class="form-control" id="recipient-name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="recipient-name" class="col-form-label">Email адресс:</label>
+						<input type="text" class="form-control" id="recipient-name">
+					</div>
+					<div class="form-group">
+						<label for="recipient-name" class="col-form-label">Пароль:</label>
+						<input type="text" class="form-control" id="recipient-name">
+					</div>
+				</div>
+				<div class="modal-footer justify-content-center border-0">
+					<button type="button" class="btn btn-success">Регистрация</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Заказ звонка -->
+	<div class="modal fade" id="callOrder" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<h5 class="modal-title" id="exampleModalLongTitle">Заказ звонка</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row justify-content-center">
+						<input type="text" class="form-control col-8" id="recipient-name" placeholder="Ваш номер телефона">
+					</div>
+				</div>
+				<div class="modal-footer justify-content-center border-0">
+					<button type="button" class="btn btn-success">Заказать</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- oneMoreSkipNav -->
 	<div class="skipNavigation d-block d-lg-none">
 		<div class="container">
@@ -77,55 +160,25 @@
 			</div>
 		</div>
 	</div>
+	<div class="skipNavigationSpace d-block d-lg-none"></div>
 	
 	<div class="container mainSkipMenu px-0">
-	<div class="container skipMenuContainer px-0">
-		<!-- <div class="row float-right">
-			<div class="col-12">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, saepe.
-			</div>
-		</div> -->
-		<ul class="skipMenu mt-1">
-			<a href="#"><li>
-					<i class="fas fa-map-marker mr-3"></i>
-					ул. Турусбекова 31 офис 402
-				</li>
-			</a><div class="underline"></div>
-			<a href="#"><li>
-					<i class="far fa-envelope mr-3"></i>
-					bnc.finance.ib@gmail.com
-				</li>
-			</a><div class="underline"></div>
-			<a href="#"><li>
-					<i class="fas fa-phone-square mr-3"></i>
-					+996312910925
-				</li>
-			</a><div class="underline"></div>
-			<a href="#"><li>
-					<i class="far fa-clock mr-3"></i>
-					09:00-18:00
-				</li>
-			</a><div class="underline"></div>
-			<a href="#"><li>
-					<i class="fas fa-map-marker mr-3"></i>
-					ул. Турусбекова 31 офис 402
-				</li>
-			</a>
-			<div class="wideUnderLine"></div>
-			<a href="#"><li>
-					<i class="fas fa-sign-in-alt mr-2"></i></i>
+		<div class="container skipMenuContainer px-0">
+
+			<ul class="skipMenu mt-1">
+
+				<a data-toggle="modal" data-target="#entrance" href="#"><li>
+					<i class="fas fa-sign-in-alt mr-2"></i>
 					вход
 				</li>
 			</a><div class="underline"></div>
-			<a href="#"><li>
-					<i class="far fa-registered mr-2"></i>
-					регистрация
-				</li>
-			</a>
+			<a data-toggle="modal" data-target="#registration" href="#"><li>
+				<i class="far fa-registered mr-2"></i>
+				регистрация покупателя
+			</li></a>
 		</ul>
-		<!-- lorem -->
 	</div>
-	</div>
+</div>
 
 	<div class="firstNav align-items-center d-none d-lg-flex">
 		<div class="container">
@@ -133,15 +186,15 @@
 				<ul class="nav ulNav align-items-center justify-content-between">
 					
 					<div class="aboutUsAndCallWrapper">
-						<a href="#"><li class="nav-item">
+						<a href="http://www.bnc.kg/"><li class="nav-item">
 							О нас
 						</li></a><div class="line"></div>
-						<a href="#" class="call">Заказ звонка</a>
+						<a data-toggle="modal" data-target="#callOrder" href="#" class="call">Заказ звонка</a>
 					</div>
 					<!-- d-none d-xl-flex -->
 					<li class="entrance nav-item ">
-						<a style="font-family: 'Open Sans', sans-serif;" href="#">вход</a><div class="line linePadding"></div>
-						<a style="font-family: 'Open Sans', sans-serif;" href="#">регистрация</a>
+						<a data-toggle="modal" data-target="#entrance" style="font-family: 'Open Sans', sans-serif;" href="#">вход</a><div class="line linePadding"></div>
+						<a data-toggle="modal" data-target="#registration" style="font-family: 'Open Sans', sans-serif;" href="#">регистрация</a>
 					</li>
 					
 				</ul>
@@ -149,36 +202,40 @@
 		</div>
 	</div>
 
-	<div class="container rori logobarter">
-		<div class="row no-gutters align-items-center justify-content-between barterlogo">
-			<div class="logobarter">
-				<a href="index.html" class=""><img src="img/logo.jpg"></a>
-			</div>
-			<div class="btnWrapper">
+	<div class="container rori">
+		<div class="row no-gutters align-items-center justify-content-between">
+			<a href="index.html" class="">
+				<img src="img/logo.jpg">
+			</a>
+			<div class="btnWrapper btnWrapperTwoButtons">
 				<a data-toggle="modal" data-target="#buyBusinessForm"><button class="btn marginBtn btn-sell btn-danger">Заявка на покупку</button></a>
 				<a href="#"><button class="btn marginBtn btn-success">Заявка на продажу</button></a>
 			</div>
 		</div>
 	</div>
 
+
 	<div class="firstBackgroundSection">
-		<div class="container d-md-none vertItems barter-gotbiz">
+		<div class="container d-lg-none vertItems barter-gotbiz">
 			<div class="row backgroundDivs justify-content-center">
 				<div class="col">
-					<a href="#"><div>
+					<a href="ready_business.html"><div>
 						Готовый бизнес
 					</div></a>
-					<a href="#"><div>
-						Коммерческая недвижимость
+					<a href="businessAcitve.html"><div>
+						Бизнес - Актив
 					</div></a>
-					<a href="#"><div>
-						О нас
+					<a href="barter.html"><div>
+						Бартер
+					</div></a>
+					<a href="сommercial_real_estate.html"><div>
+						Коммерческая недвижимость
 					</div></a>
 				</div>
 			</div>
 		</div>
-		<div class="container d-md-block d-none">
-			<div class="col firstBackgroundItemsRow">
+		<div class="container d-lg-block d-none p-0">
+			<!-- <div class="col firstBackgroundItemsRow"> -->
 				<!-- <a href="#">
 					<div class="firstBackgroundItemsRowItem col">
 						Готовый бизнес
@@ -194,7 +251,7 @@
 						О нас
 					</div>
 				</a> -->
-				<a href="ready_business.html">
+				<!-- <a href="ready_business.html">
 					<div class="firstBackgroundItemsRowItem">Готовый бизнес</div>
 					<div class="colNavVertLine"></div>
 				</a>
@@ -205,11 +262,33 @@
 				<a href="about.html">
 					<div class="firstBackgroundItemsRowItem">О нас</div>
 				</a>
+			</div> -->
+			<div class="secondPageNavbarRow d-none d-lg-flex">
+				<a href="ready_business.html">
+					
+						Готовый бизнес
+						<span class="colNavVertLine"></span>
+				</a>
+				<a href="businessAcitve.html">
+					
+						Бизнес - Актив
+						<span class="colNavVertLine"></span>
+				</a>
+				<a href="barter.html">
+					
+						Бартер
+						<span class="colNavVertLine"></span>
+				</a>
+				<a href="сommercial_real_estate.html">
+					
+						Коммерческая недвижимость
+				</a>
+				
 			</div>
 			<div class="row inputRow justify-content-center d-none d-lg-flex">
 				<div class="inputWrapperSecond mr-2">
 					<div class="inputPadding">
-						<input type="text">
+						<input type="text" placeholder="Я ищу ...">
 					</div>
 				</div>
 					<button class="btn btn-warning">Поиск</button>
@@ -226,13 +305,13 @@
 		<div class="container">
 			<div class="navigation">
 				<ul>
-					<li><a href="#">Главная > </a></li>
-					<li><a href="#">Инвестиционные проекты > </a></li>
+					<li><a href="index.html">Главная > </a></li>
+					<li><a href="businessAcitve.html">Бизнес - Актив > </a></li>
 					<li><a href="#">Услуги и сервис</a></li>
 				</ul>
 			</div>
 			<div class="listingWord">
-				Инвестиционные проекты
+				Бизнес - Актив
 			</div>			
 		</div>
 	</div>	
@@ -262,19 +341,16 @@
 			<div class="Leftcontainer">
 				<div class="menuLeft">
 					<ul>
-						<li><a href="#">Автобизнес</a></li>
-						<li><a href="#">Аптечный</a></li>
-						<li><a href="#">Арендный</a></li>
-						<li><a href="#">Гостиничный</a></li>
-						<li><a href="#">Образование</a></li>
-						<li><a href="#">Доли бизнеса</a></li>
-						<li><a href="#">Интернет</a></li>
-						<li><a href="#">Ком. недвижимость</a></li>
-						<li><a href="#">Производство</a></li>
-						<li><a href="#">Развлечение</a></li>
-						<li><a href="#">Строительный</a></li>
-						<li><a href="#">Услуги и сервис</a></li>
-					</ul>						
+						<li><a href="#">Гостиницы/Туризм (2)</a></li>
+						<li><a href="#">Интернет проект (1)</a></li>
+						<li><a href="#">Образование (3)</a></li>
+						<li><a href="#">Производство (3)</a></li>
+						<li><a href="#">Развлечения (1)</a></li>
+						<li><a href="#">Рестораны/Кафе (2)</a></li>
+						<li><a href="#">Сельское хозяйство (2)</a></li>
+						<li><a href="#">Торговля (1)</a></li>
+						<li><a href="#">Прочее (12)</a></li>
+					</ul>
 				</div>
 				<!-- <div class="popularRubrik">
 					<div class="title">
@@ -314,7 +390,7 @@
 						<button><a href="3page.html">Подробнее</a></button>
 					</div>
 
-					<div class="blockcontentmenu">
+					<!-- <div class="blockcontentmenu">
 						<h5>Автомойка с постоянными клиентами</h5>
 						<img src="img/92915_gallery.world.jpg">
 						<span>1 500 000 сом</span>
@@ -331,7 +407,7 @@
 						<p>Город: Бишкек</p>
 						<p>Окупаемость: ___</p>
 						<button><a href="3page.html">Подробнее</a></button>
-					</div>						
+					</div>	 -->					
 				</div>
 			</div>
 			<div class="rightContainer">

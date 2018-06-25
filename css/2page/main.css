@@ -102,11 +102,11 @@ body {
 	/*display: flex;*/
 	justify-content: space-between;
 	/*width: 300px;*/
-	/*margin-right: 110px;*/
+	margin-right: 18px;
 	/*display: flex;
 	justify-content: space-between;
 	flex: 1;*/
-	width: 407px;
+	max-width: 388px;
 }
 .btn-sell {
 	background: #ed7d19;
@@ -485,6 +485,7 @@ body {
 	display: block;
 	font-size: 17px;
 	margin: 10px 0 10px 0;
+	width: max-content;
 }
 .menuLeft ul li a:hover{
 	color:#1D65AE;

@@ -78,9 +78,6 @@
 	    flex-direction: column;
 	    justify-content: center !important;
 	}
-	.logobarter{
-		padding-top: 50px;
-	}
 	.barter-gotbiz{
 		margin-top: -117px;
     	padding: 10px;
@@ -206,10 +203,10 @@
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center !important;
-	}
+	}/*
 	.logobarter{
 		padding-top: 50px;
-	}
+	}*/
 	.barter-gotbiz{
 		margin-top: -117px;
     	padding: 10px;
@@ -264,9 +261,9 @@
 	    flex-direction: column;
 	    justify-content: center !important;
 	}
-	.logobarter{
+	/*.logobarter{
 		padding-top: 50px;
-	}
+	}*/
 	.barter-gotbiz{
 		margin-top: -117px;
     	padding: 10px;
@@ -318,9 +315,6 @@
 	    flex-direction: column;
 	    justify-content: center !important;
 	}
-	.logobarter{
-		padding-top: 50px;
-	}
 	.barter-gotbiz{
 		margin-top: -117px;
     	padding: 10px;
@@ -371,9 +365,6 @@
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center !important;
-	}
-	.logobarter{
-		padding-top: 50px;
 	}
 	.barter-gotbiz{
 		margin-top: -117px;
@@ -428,9 +419,6 @@
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center !important;
-	}
-	.logobarter{
-		padding-top: 50px;
 	}
 	.barter-gotbiz{
 		margin-top: -117px;
@@ -497,9 +485,6 @@
 	    flex-direction: column;
 	    justify-content: center !important;
 	}
-	.logobarter{
-		padding-top: 50px;
-	}
 	.barter-gotbiz{
 		margin-top: -117px;
     	padding: 10px;
@@ -561,9 +546,6 @@
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center !important;
-	}
-	.logobarter{
-		padding-top: 50px;
 	}
 	.barter-gotbiz{
 		margin-top: -117px;
@@ -639,9 +621,6 @@
 	    flex-direction: column;
 	    justify-content: center !important;
 	}
-	.logobarter{
-		padding-top: 50px;
-	}
 	.barter-gotbiz{
 		margin-top: -117px;
     	padding: 10px;
@@ -692,9 +671,6 @@
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center !important;
-	}
-	.logobarter{
-		padding-top: 50px;
 	}
 	.barter-gotbiz{
 		margin-top: -117px;

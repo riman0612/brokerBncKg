@@ -8,17 +8,15 @@
 	}
 	.container.rori {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 	}
 	.rori .row {
-		justify-content: center !important;
-		max-width: 784px;
+		/*justify-content: space-between !important;*/
+		/*max-width: 784px;*/
+		width: 100%;
 	}
 	.row .card {
 		margin-top: 20px;
-	}
-	.row img {
-		margin: 10px 0;
 	}
 }
 @media (min-width: 1201px) {
@@ -27,6 +25,9 @@
 	}	
 }
 @media (max-width: 992px) {
+	.row img {
+		margin: 10px 0;
+	}
 	.secondColNav {
 		border-radius: 0 5px 5px 0;
 	}
@@ -63,7 +64,7 @@
 	}
 	.btnWrapper {
 		margin-right: 0;
-		/*width: 732px;*/
+		width: 732px;
 		padding: 0 0 !important;
 		/*padding-right: 0 !important;*/
 	}
@@ -106,6 +107,12 @@
 		top: 0px;
 		height: 200px;
 	}	
+	.rori .row {
+		justify-content: center;
+	}
+	.btnWrapper {
+		margin-bottom: 20px;
+	}
 }
 @media (max-width: 575px) {
 	.cont {
@@ -150,11 +157,11 @@
 		flex-wrap: wrap;
 		padding: 0px !important;
 		/*max-width: 490px;*/
-		width: 322px;
+		/*width: 322px;*/
 		flex: none;
 	}
 	.marginBtn {
-		margin-bottom: 22px;
+		/*margin-bottom: 22px;*/
 	}
 }
 @media (max-width: 519px) {
