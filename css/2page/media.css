@@ -2,6 +2,12 @@
 	.clock {
 		margin: 0 0;
 	}
+	.rori .row {
+		justify-content: space-between !important;
+	}
+	.secondPageLogoAndButtonsWrapper {
+		justify-content: space-between !important;
+	}
 }
 @media (max-width: 992px) {
 	.footerInnerContainer img {
@@ -131,9 +137,6 @@
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center !important;
-	}
-	.logobarter{
-		padding-top: 50px;
 	}
 	.barter-gotbiz{
 		margin-top: -117px;
@@ -325,7 +328,7 @@
 }
 @media (max-width: 404px) {
 	.btnWrapper {
-		max-width: 290px;
+		max-width: 309px;
 	}
 	.contentmain {
 	    display: flex;

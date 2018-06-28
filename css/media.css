@@ -4,7 +4,11 @@
 	}
 	.btnWrapper {
 		margin: 5px  0 24px 0 !important;
-		padding: 0 3rem !important;
+		padding: 0 6rem !important;
+	}
+	.btnWrapperTwoButtons {
+		padding: 0 !important;
+		margin: 0 !important;
 	}
 	.container.rori {
 		display: flex;
@@ -14,9 +18,13 @@
 		/*justify-content: space-between !important;*/
 		/*max-width: 784px;*/
 		width: 100%;
+		justify-content: center !important;
 	}
 	.row .card {
 		margin-top: 20px;
+	}
+	.secondPageLogoAndButtonsWrapper {
+		justify-content: space-between !important;
 	}
 }
 @media (min-width: 1201px) {
@@ -64,9 +72,14 @@
 	}
 	.btnWrapper {
 		margin-right: 0;
+		margin-bottom: 24px;
 		width: 732px;
 		padding: 0 0 !important;
 		/*padding-right: 0 !important;*/
+	}
+	.btnWrapperTwoButtons {
+		width: 349px;
+		margin-bottom: 24px !important;
 	}
 	.firstCol {
 		height: 300px;
@@ -81,6 +94,11 @@
 		height: 160px;
 		top: -15px;
 	}
+}
+@media (width: 992px) {
+	.btnWrapper {
+		/*padding: 0 6rem !important;*/
+	}	
 }
 @media (max-width: 330px) {
 	.blogPhoto {
@@ -110,9 +128,9 @@
 	.rori .row {
 		justify-content: center;
 	}
-	.btnWrapper {
-		margin-bottom: 20px;
-	}
+	/*.btnWrapper {
+		margin-bottom: 24px;
+	}*/
 }
 @media (max-width: 575px) {
 	.cont {
@@ -124,7 +142,7 @@
 }
 @media (max-width: 404px) {
 	.btnWrapper {
-		max-width: 280px;
+		max-width: 284px;
 	}
 	.btnWrapper button {
 		max-width: 50px;
@@ -144,6 +162,8 @@
 	}
 	.investitionButtonTextWrapper {
 		white-space: initial;
+		position: relative;
+		top: -3px;
 	}
 }
 @media (max-width: 768px) {
@@ -157,11 +177,11 @@
 		flex-wrap: wrap;
 		padding: 0px !important;
 		/*max-width: 490px;*/
-		/*width: 322px;*/
+		width: 326px;
 		flex: none;
 	}
 	.marginBtn {
-		/*margin-bottom: 22px;*/
+		margin-bottom: 22px;
 	}
 }
 @media (max-width: 519px) {
