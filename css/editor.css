@@ -649,16 +649,13 @@ body {
 	color: #2A2C2B;
 }
 .editorContainer {
-	/*background: orange;*/
+	margin-bottom: 50px;
 }
 .editorWrapper {
-	background: blue;
-	height: 300px;
 	display: flex;
 }
 .editorSidebar {
 	width: 250px;
-	height: 100%;
 	background: #24272c;
 	border: 1px solid silver;
 }
@@ -672,17 +669,36 @@ body {
 	height: 50px;
 	position: relative;
 }
+.editorSidebar a:nth-last-child(1) {
+	border-bottom: none;
+}
 .editorSidebar i {
 	margin-right: 15px;
 }
+.custom-file-label::after {
+    content: "Обзор" !important;
+}
 .editorMainWindow {
-	background: #bfbfbf;
+	background: #dfdfdf;
 	flex: 1;
+	padding: 48px;
+	padding-top: 55px;
+}
+.editorMainWindow textarea {
+	height: 113px;
+}
+.editorMainWindowContainer {
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;*/
+}
+.editorMainWindowContainer button {
+	width: 150px;
 }
 .angle {
 	width: 20px;
 	height: 20px;
-	background: #bfbfbf;
+	background: #dfdfdf;
 	position: absolute;
 	right: -10px;
 	transform: rotate(45deg);

@@ -226,7 +226,7 @@
 	<div class="editorContainer container">
 		<div class="editorWrapper">
 			<ul class="editorSidebar">
-				<a href="editor.html">
+				<a href="editor.html" style="background: #757474;">
 					<i class="fas fa-plus-circle"></i>
 					<li>
 						Добавить	
@@ -253,7 +253,97 @@
 				</a>
 			</ul>
 			<div class="editorMainWindow">
-				
+				<div class="container editorMainWindowContainer">
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Название:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Цена:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Доходность:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Окупаемость:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Прибыль:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Описание:</div>
+						<textarea type="text" class="col-5 form-control"></textarea>
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Фото:</div>
+						<!-- <input type="text" class="col-5 form-control"> -->
+						<div class="custom-file col-5">
+							<input type="file" class="custom-file-input" id="customFile" onchange="$(this).next().after().text($(this).val().split('\\').slice(-1)[0])">
+							<label class="custom-file-label" for="customFile">Выберите файл</label>
+						</div>
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Брокер объекта:</div>
+						<select class="col-5 form-control">
+							<option>Бишкек</option>
+							<option>Тилек Эралиев</option>
+							<option>Мурат Дюшебаев</option>
+							<option>Ринат Рахимов</option>
+							<option>Тилек Эралиев</option>
+						</select>
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Город:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Район:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Раздел:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Среднемесячные обороты:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Среднемесячные расходы:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Количество работников:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Фонд з/п:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Площадь помещений:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Стоимость аренды:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Возраст бизнеса:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row mb-5 justify-content-center">
+						<div class="col-5">Организационно-правовая форма:</div>
+						<input type="text" class="col-5 form-control">
+					</div>
+					<div class="row justify-content-center">
+						<button class="btn btn-success">Сохранить</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
